@@ -69,8 +69,8 @@ This project includes components for **lexical analysis, parsing (LL(1)), gramma
    - (g) `testcase.txt` – If-else (maximum of two numbers)  
    - (h) `testcase7.txt` – Average of two numbers  
 
-6. **Executable / Driver (if applicable)**
-   - (a) `main.c` – Entry point integrating lexer and parser (if present)  
+6. **Executable / Driver **
+   - (a) `driver.c` – Entry point integrating lexer and parser   
 
    
 ---
