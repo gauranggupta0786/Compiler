@@ -1,0 +1,23 @@
+%Custom Test 2: If-else conditional test
+%Computes the maximum of two numbers
+_maximum input parameter list [int d3cc45, int d3dd56]
+output parameter list[int c4bc67];
+	if(d3cc45 > d3dd56)
+	then
+		c4bc67 <--- d3cc45;
+	else
+		c4bc67 <--- d3dd56;
+	endif
+	return [c4bc67];
+end
+
+_main
+	type int :b2;
+	type int :d2;
+	type int :c3;
+	b2 <--- 15;
+	d2 <--- 25;
+	[c3] <--- call _maximum with parameters [b2, d2];
+	write(c3);
+	return;
+end
