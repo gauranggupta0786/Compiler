@@ -126,8 +126,6 @@ gcc *.c -o compiler
 
 ### 2.Run
 ./compiler <input_file>
+
  Example:
  ./compiler t2.txt
-
-## 📂 Project Structure
-
